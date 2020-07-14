@@ -1,21 +1,12 @@
 package tests;
 
-import components.NavBar;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import settings.BaseTest;
 
 import java.util.ArrayList;
 
 public class HomePageTests extends BaseTest {
-
-    private NavBar navBar;
-
-    @BeforeTest
-    public void setUp(){
-        navBar = new NavBar(this.driver);
-    }
 
     @Test
     public void openAllNavBarTabs(){
@@ -25,12 +16,12 @@ public class HomePageTests extends BaseTest {
 
     @Test
     public void testSuggestedGames(){
-        String game_name = "Portal";
+        String game_name = "Age";
         navBar.writeGameIntoSearchInput(game_name);
         ArrayList<String> games = navBar.getSuggestedGames();
         Assert.assertTrue(games.size() == 5, "The number of suggested games is not correct");
         for(String game: games){
-            Assert.assertTrue(game.indexOf("Portal") >= 0, "The game " + game + " is not correct. Not contains Search String " + game_name);
+            Assert.assertTrue(game.indexOf("Age") >= 0, "The game " + game + " is not correct. It does not contain Search String " + game_name);
         }
     }
 

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import pages.GamePage;
 import settings.BasePage;
 
 import java.util.ArrayList;
@@ -41,8 +42,7 @@ public class NavBar extends BasePage {
 
         ArrayList<String> suggested_games_names = new ArrayList<String>();
 
-        for (WebElement suggestedGame : suggestedGames)
-        {
+        for (WebElement suggestedGame : suggestedGames){
             suggested_games_names.add(suggestedGame.getText());
         }
 
@@ -57,6 +57,19 @@ public class NavBar extends BasePage {
         this.hoverElement(tab);
         String is_active = tab.getAttribute("class");
         Assert.assertTrue(is_active.indexOf("focus") > 0, "The Menu did not open");
+    }
+
+    public GamePage clickSuggestedGame(String game_name){
+        boolean matchFound = false;
+        for (WebElement suggestedGame : suggestedGames){
+            if (suggestedGame.getText().indexOf(game_name) >= 0){
+                matchFound = true;
+                suggestedGame.click();
+                break;
+            }
+        }
+        Assert.assertTrue(matchFound, "The game " +game_name+ " was not found");
+        return new GamePage(driver);
     }
 
 }
