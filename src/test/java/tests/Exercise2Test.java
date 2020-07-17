@@ -5,7 +5,7 @@ import pages.GamePage;
 import settings.BaseTest;
 
 
-public class ExerciseTests extends BaseTest{
+public class Exercise2Test extends BaseTest{
 
     @Test
     public void goToGamePage(){

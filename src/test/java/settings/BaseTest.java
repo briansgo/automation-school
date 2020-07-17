@@ -4,6 +4,7 @@ import components.NavBar;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import pages.GamePage;
 import pages.HomePage;
 
 abstract public class BaseTest {
@@ -11,6 +12,7 @@ abstract public class BaseTest {
     protected WebDriver driver;
     protected NavBar navBar;
     protected HomePage homePage;
+    protected GamePage gamePage;
 
     @BeforeSuite
     public void suitSetup(){
@@ -19,6 +21,7 @@ abstract public class BaseTest {
 
         navBar = new NavBar(this.driver);
         homePage = new HomePage(this.driver);
+        gamePage = new GamePage(this.driver);
 
     }
 

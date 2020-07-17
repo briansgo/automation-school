@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4968e39e-05fa-4c31-b1d9-d8341cf7548b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GamePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ExerciseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Exercise3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/NavBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/NavBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/GamePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/GamePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/components/NavBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/components/NavBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ExerciseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Exercise2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/GamePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/GamePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/settings/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/settings/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ExerciseTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,18 +25,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="420">
               <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,10 +37,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/components/NavBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,39 +63,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/GamePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="method#getGameDetailsDeveloper#0;class#GamePage#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/components/NavBar.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Exercise3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1109#1117#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="52">
+              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExerciseTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Exercise2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="180">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/settings/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="400">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,10 +133,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ClickOnSuggestedGameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/HomePageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ExerciseTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/GamePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/NavBar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Exercise2Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/GamePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Exercise3Test.java" />
       </list>
     </option>
   </component>
@@ -178,9 +165,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="177" />
-    <option name="width" value="1196" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="246" />
+    <option name="y" value="19" />
+    <option name="width" value="1119" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -189,6 +177,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,11 +273,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594723704215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594954956067" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -308,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExerciseTests">
+  <component name="RunManager" selected="TestNG.Exercise3Test">
     <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <module name="webdriver_java" />
@@ -322,7 +310,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise2Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
@@ -331,7 +319,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ExerciseTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Exercise2Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -339,7 +327,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseTests.goToGamePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise2Test.goToGamePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
@@ -348,9 +336,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ExerciseTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Exercise2Test" />
       <option name="METHOD_NAME" value="goToGamePage" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise3Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Exercise3Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -376,8 +381,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExerciseTests" />
-        <item itemvalue="TestNG.ExerciseTests.goToGamePage" />
+        <item itemvalue="TestNG.Exercise3Test" />
+        <item itemvalue="TestNG.Exercise2Test" />
+        <item itemvalue="TestNG.Exercise2Test.goToGamePage" />
         <item itemvalue="TestNG.HomePageTests" />
         <item itemvalue="Application.BaseTests" />
       </list>
@@ -397,42 +403,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 02h 00m 37s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 18h 46m 36s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 02h 22m 48s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 18h 51m 31s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 02h 25m 21s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 18h 53m 14s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 02h 42m 40s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 18h 54m 34s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 02h 45m 46s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 00m 13s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 03h 08m 15s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 03m 37s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ClickOnSuggestedGameTest - 2020.07.14 at 03h 10m 12s.xml">
-      <configuration name="ClickOnSuggestedGameTest" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 09m 55s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExerciseTests - 2020.07.14 at 03h 33m 16s.xml">
-      <configuration name="ExerciseTests" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 12m 28s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExerciseTests - 2020.07.14 at 03h 40m 49s.xml">
-      <configuration name="ExerciseTests" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 17m 18s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExerciseTests - 2020.07.14 at 03h 44m 56s.xml">
-      <configuration name="ExerciseTests" configurationId="TestNG" />
+    <history-entry file="Exercise3Test - 2020.07.16 at 19h 46m 17s.xml">
+      <configuration name="Exercise3Test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="246" y="19" width="1119" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22096318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3633388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.46345514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,13 +466,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/settings/DriverSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -488,10 +486,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="420">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Exercise2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,48 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/settings/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ExerciseTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GamePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="400">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -550,17 +535,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/components/NavBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+        <state relative-caret-position="120">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1109#1117#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/GamePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="method#getGameDetailsDeveloper#0;class#GamePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Exercise3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
