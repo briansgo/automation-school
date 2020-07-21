@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import settings.BasePage;
 
 import org.testng.Assert;
@@ -16,6 +17,13 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//li[.='Best Sellers']")
     private WebElement bestSellerProductsButton;
 
+    @FindBy(css = ".right[data-usability='1']")
+    private WebElement nextRecommendationButton;
+
+    @FindBy(css = ".left[data-usability='1']")
+    private WebElement previousRecommendationButton;
+
+
     public HomePage(WebDriver driver){
         super(driver);
         PageFactory.initElements(driver, this);
@@ -31,6 +39,18 @@ public class HomePage extends BasePage{
         this.click(bestSellerProductsButton);
         String is_active = bestSellerProductsButton.getAttribute("class");
         Assert.assertEquals(is_active,"active");
+    }
+
+    public WebElement getFeaturedNextButton(){
+        return nextRecommendationButton;
+    }
+
+    public WebElement getFeaturedPreviousButton(){
+        return previousRecommendationButton;
+    }
+
+    public WebElement getCurrentFeaturedElement(){
+        return driver.findElement(By.cssSelector("#home_maincap_v7 a[class*='focus']"));
     }
 
 
